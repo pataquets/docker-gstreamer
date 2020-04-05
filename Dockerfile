@@ -7,6 +7,7 @@ RUN \
       gstreamer1.0-plugins-bad \
       gstreamer1.0-plugins-good \
       gstreamer1.0-plugins-ugly \
+      gstreamer1.0-tools \
   && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/
